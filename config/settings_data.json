@@ -750,11 +750,11 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "6523a763-d8af-440a-a361-55731539ab76": {
+          "98026137-351c-4a19-ada7-147c5355cf1e": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/SensiFlo4.webp",
-              "mobile_image": "shopify:\/\/shop_images\/Flo4_Mobile.webp",
+              "image": "shopify:\/\/shop_images\/SensiSmart_Banner_1.webp",
+              "mobile_image": "shopify:\/\/shop_images\/Sensi_Mobile_1.webp",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -768,8 +768,8 @@
           "700cc044-cd60-43fc-9325-f255975a7a9b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/SensiFlo6.webp",
-              "mobile_image": "shopify:\/\/shop_images\/Flo6_Mobile.webp",
+              "image": "shopify:\/\/shop_images\/SensiFlo6_1.webp",
+              "mobile_image": "shopify:\/\/shop_images\/Flo6_Mobile_1.webp",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -780,11 +780,11 @@
               "button_2_link": ""
             }
           },
-          "98026137-351c-4a19-ada7-147c5355cf1e": {
+          "6523a763-d8af-440a-a361-55731539ab76": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/SensiSmart_Banner.webp",
-              "mobile_image": "shopify:\/\/shop_images\/Sensi_Mobile.webp",
+              "image": "shopify:\/\/shop_images\/SensiFlo4_1.webp",
+              "mobile_image": "shopify:\/\/shop_images\/Flo4_Mobile_1.webp",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -797,9 +797,9 @@
           }
         },
         "block_order": [
-          "6523a763-d8af-440a-a361-55731539ab76",
+          "98026137-351c-4a19-ada7-147c5355cf1e",
           "700cc044-cd60-43fc-9325-f255975a7a9b",
-          "98026137-351c-4a19-ada7-147c5355cf1e"
+          "6523a763-d8af-440a-a361-55731539ab76"
         ],
         "settings": {
           "show_fullscreen": false,
@@ -1067,13 +1067,13 @@
       "razr-prod-block": {
         "type": "razr-prod-block",
         "blocks": {
-          "1342f2df-5336-430e-ac5a-3c9f78a4f84f": {
+          "9a74eb52-747c-4a6b-9333-e1de4914ca0a": {
             "type": "product",
             "settings": {
-              "prod": "sensi-flo-4-razor",
-              "razor_img": "shopify:\/\/shop_images\/Sensi-Flo4.png",
+              "prod": "sensi-smart-3",
+              "razor_img": "shopify:\/\/shop_images\/Sensi-Flo6_1.png",
               "razr_html": "<h3>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus dui pharetra facilisis, diam libero dictumst gravida nulla euismod in felis leo. Curae vulputate quam venenatis nascetur ullamcorper scelerisque faucibus porta, feugiat cursus rhoncus eu libero urna ultricies, imperdiet integer et nulla malesuada sem vehicula. Volutpat neque pretium quisque tempus habitasse diam dui, venenatis porttitor felis dictumst eget<\/h3>",
-              "top_color": "#259b47"
+              "top_color": "#c0d52f"
             }
           },
           "0fb9bf09-af9c-407e-b176-7da503d4e26e": {
@@ -1085,20 +1085,20 @@
               "top_color": "#007684"
             }
           },
-          "9a74eb52-747c-4a6b-9333-e1de4914ca0a": {
+          "1342f2df-5336-430e-ac5a-3c9f78a4f84f": {
             "type": "product",
             "settings": {
-              "prod": "sensi-smart-3",
-              "razor_img": "shopify:\/\/shop_images\/Sensi-Flo6_1.png",
+              "prod": "sensi-flo-4-razor",
+              "razor_img": "shopify:\/\/shop_images\/Sensi-Flo4.png",
               "razr_html": "<h3>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus dui pharetra facilisis, diam libero dictumst gravida nulla euismod in felis leo. Curae vulputate quam venenatis nascetur ullamcorper scelerisque faucibus porta, feugiat cursus rhoncus eu libero urna ultricies, imperdiet integer et nulla malesuada sem vehicula. Volutpat neque pretium quisque tempus habitasse diam dui, venenatis porttitor felis dictumst eget<\/h3>",
-              "top_color": "#c0d52f"
+              "top_color": "#259b47"
             }
           }
         },
         "block_order": [
-          "1342f2df-5336-430e-ac5a-3c9f78a4f84f",
+          "9a74eb52-747c-4a6b-9333-e1de4914ca0a",
           "0fb9bf09-af9c-407e-b176-7da503d4e26e",
-          "9a74eb52-747c-4a6b-9333-e1de4914ca0a"
+          "1342f2df-5336-430e-ac5a-3c9f78a4f84f"
         ],
         "settings": {
         }
