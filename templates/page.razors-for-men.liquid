@@ -6,7 +6,8 @@
     max-width: 100%;
     height: auto
   }
-  .paper-video-desktop{max-width:100%; height:auto; display:block}
+  .paper-video-desktop{display:block}
+  .paper-video-desktop video{max-width:100%; height:auto; }
   .paper-video-mobile{display:none}
   .main {
     overflow: hidden;
@@ -228,7 +229,8 @@
       font-size: 17px
     }
     .paper-video-desktop{display:none}
-    .paper-video-mobile{display:block;max-width:100%;height:auto}
+    .paper-video-mobile{display:block}
+    .paper-video-mobile video{display:block;max-width:100%;height:auto}
   }
 </style>
 <!-- CSS ENDS HERE -->
@@ -319,6 +321,7 @@
     </div>
   </div>
   <div class="section-sixth">
+    <h2></h2>
     <div class="paper-video-desktop">
       <video loop autoplay inline muted>
         <source src="https://cdn.shopify.com/videos/c/o/v/6201970c28a34c3291f7aa50e93636af.mp4" type="video/mp4">
