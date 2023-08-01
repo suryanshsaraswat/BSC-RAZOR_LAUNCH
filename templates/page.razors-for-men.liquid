@@ -6,6 +6,8 @@
     max-width: 100%;
     height: auto
   }
+  .paper-video-desktop{max-width:100%; height:auto; display:block}
+  .paper-video-mobile{display:none}
   .main {
     overflow: hidden;
   }
@@ -225,6 +227,8 @@
     .contents h3 {
       font-size: 17px
     }
+    .paper-video-desktop{display:none}
+    .paper-video-mobile{display:block;max-width:100%;height:auto}
   }
 </style>
 <!-- CSS ENDS HERE -->
@@ -326,7 +330,7 @@
         <source src="https://cdn.shopify.com/videos/c/o/v/6201970c28a34c3291f7aa50e93636af.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="paper-video-desktop">
+    <div class="paper-video-mobile">
       <video width="1920" height="100%" loop autoplay inline>
         <source src="https://cdn.shopify.com/videos/c/o/v/b23188445fd84a9d9bf13c4d08cae113.mp4" type="video/mp4">
       </video>
