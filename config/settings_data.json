@@ -1102,6 +1102,37 @@
         ],
         "settings": {
         }
+      },
+      "Razr-Testimonials": {
+        "type": "Razr-Testimonials",
+        "blocks": {
+          "72d12aa1-f907-4761-a62e-a5e12f022e0b": {
+            "type": "Product",
+            "settings": {
+              "ing": "shopify:\/\/shop_images\/SensiSmart3_2.webp"
+            }
+          },
+          "0067d891-5ade-407d-8ca0-83fbbd945bbe": {
+            "type": "Product",
+            "settings": {
+              "ing": "shopify:\/\/shop_images\/SensiSmart3_1.webp"
+            }
+          },
+          "c2de6ab7-df95-4117-9cde-d5d9b9bc301a": {
+            "type": "Product",
+            "settings": {
+              "ing": "shopify:\/\/shop_images\/SensiFlo6_4.webp"
+            }
+          }
+        },
+        "block_order": [
+          "72d12aa1-f907-4761-a62e-a5e12f022e0b",
+          "0067d891-5ade-407d-8ca0-83fbbd945bbe",
+          "c2de6ab7-df95-4117-9cde-d5d9b9bc301a"
+        ],
+        "settings": {
+          "cms_head": ""
+        }
       }
     },
     "content_for_index": [
