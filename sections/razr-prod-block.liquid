@@ -61,7 +61,7 @@ p.price_slashed {
   {% assign razr_var = razr_prod.selected_or_first_available_variant %}
   <div class="razr-wrapper">
     <div class="razr-container">
-     <a href="{{ razr_prod.url }}"> <div class="top">
+     <a href="{{ razr_prod.url }}"> <div class="top" style="background-color:#{{ block.settings.top_color }}">
         <div class="razr-img"><h2><img src="{{ block.settings.razor_img | img_url:"master" }}" loading="lazy"></h2></div>
       </div></a>
       <div class="bottom">
