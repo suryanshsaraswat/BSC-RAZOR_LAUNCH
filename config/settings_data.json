@@ -1072,7 +1072,7 @@
             "settings": {
               "prod": "sensi-smart-3",
               "razor_img": "shopify:\/\/shop_images\/Sensi-Flo6_1.png",
-              "razr_html": "<h3>SENSITIVE LUBRICATING STRIP<\/h3>\n<h3>EXTRA CARE FOR SKIN<\/h3>\n<h3>SAY GOODBYE TO OVERPRICED RAZORS<\/h3>\n<h3>PIVOT HEAD FOR EASY MANEUVERING<\/h3>",
+              "razr_html": "<h3>SENSITIVE LUBRICATING STRIP<\/h3>\n<h3>EXTRA CARE FOR SKIN<\/h3>\n<h3>SAY GOODBYE TO OVERPRICED RAZORS<\/h3>\n<h3>PIVOT HEAD FOR EASY manoeuvreing<\/h3>",
               "top_color": "#c0d52f"
             }
           },
