@@ -208,10 +208,8 @@ h2.explor_razr{font-size:30px;margin-top:-24px;line-height:38px;margin-bottom:-1
 });
 </script>
 <script>
-const scrollButton = $('#go-downn');
-scrollButton.click(function() {
-  $('#jsfun').animate({
-    scrollTop: $(window).scrollTop() + '300px';
+$('#go-downn').click(function() {
+    window.scrollTo({top: 850, behavior: 'smooth'});
 });
 </script>
 <!-- JS ENDS HERE -->
