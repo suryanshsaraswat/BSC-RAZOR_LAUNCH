@@ -465,6 +465,14 @@
               "linkopen": false
             }
           },
+          "9d08cfe9-2e2f-4020-9527-af6099ab3c88": {
+            "type": "testimonial",
+            "settings": {
+              "text": "Razors for men",
+              "linkurl": "shopify:\/\/pages\/razors-for-men",
+              "linkopen": false
+            }
+          },
           "723462a7-6687-4d01-9fa0-18023bbafc5b": {
             "type": "testimonial",
             "settings": {
@@ -494,15 +502,6 @@
             "settings": {
               "text": "Shave",
               "linkurl": "shopify:\/\/pages\/shaving-products-for-men",
-              "linkopen": false
-            }
-          },
-          "9d08cfe9-2e2f-4020-9527-af6099ab3c88": {
-            "type": "testimonial",
-            "disabled": true,
-            "settings": {
-              "text": "Trip to London",
-              "linkurl": "shopify:\/\/pages\/rajasthan-royals-exclusive-collection",
               "linkopen": false
             }
           },
@@ -558,11 +557,11 @@
         "block_order": [
           "c5d2e43b-9c67-463b-90fd-ee276f8e047c",
           "61483588-c8b3-4603-b2be-e6642e8c2845",
+          "9d08cfe9-2e2f-4020-9527-af6099ab3c88",
           "723462a7-6687-4d01-9fa0-18023bbafc5b",
           "debb41d3-b108-48a6-91eb-115025e8ba25",
           "585a3d49-5aa7-4472-a028-3d238a4e6a0f",
           "de6ec94f-3b94-42f6-8d56-71dff7d5b5f4",
-          "9d08cfe9-2e2f-4020-9527-af6099ab3c88",
           "442afb8b-d88b-4bbd-ade6-d4e5381d4263",
           "ab7da4f2-8c7b-4117-aef1-4cfa2ec469cb",
           "24024d88-b1ad-4dcc-8cb9-4bdf7d2743dc",
