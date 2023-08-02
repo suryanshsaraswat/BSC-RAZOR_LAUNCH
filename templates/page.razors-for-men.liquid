@@ -194,13 +194,17 @@ h2.explor_razr{font-size:30px;margin-top:-24px;line-height:38px;margin-bottom:-1
 <script>
   AOS.init();
 </script>
-<script>$(".section-sixth").click(function() {
+<script>
+  $(".section-sixth").click(function() {
     window.scrollTo({top: 850, behavior: 'smooth'});
 });
-const scrollButton = $('#go-downn');
+</script>
+<script>
+  const scrollButton = $('#go-downn');
 
 scrollButton.click(function() {
   $('html, body').animate({
     scrollTop: $(window).scrollTop() + 300
 });
+</script>
 <!-- JS ENDS HERE -->
