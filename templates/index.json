@@ -35,17 +35,17 @@
             "button_2_link": ""
           }
         },
-        "e791ec55-e8d4-48b2-826b-f2567c828c26": {
+        "5a2a6b54-877a-4df6-924b-9481b74a7d6f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Trimmer_Desktop.webp",
-            "mobile_image": "shopify:\/\/shop_images\/HRS_Mobile.webp",
+            "image": "shopify:\/\/shop_images\/SensiSmart_Banner_2.webp",
+            "mobile_image": "shopify:\/\/shop_images\/Sensi_Mobile_2.webp",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "https:\/\/mybombae.in?utm_source=D2C+Tech&utm_medium=Website&utm_campaign=BSC&utm_id=BSC",
+            "button_1_link": "shopify:\/\/products\/landscaper-durex-combo",
             "button_2_text": "",
             "button_2_link": ""
           }
@@ -65,17 +65,32 @@
             "button_2_link": ""
           }
         },
-        "5a2a6b54-877a-4df6-924b-9481b74a7d6f": {
+        "fdd03a74-70c5-4c74-8a66-9eabe9c2e852": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SensiSmart_Banner_2.webp",
-            "mobile_image": "shopify:\/\/shop_images\/Sensi_Mobile_2.webp",
+            "image": "shopify:\/\/shop_images\/Range.webp",
+            "mobile_image": "shopify:\/\/shop_images\/Range_Mobile_2.webp",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/products\/landscaper-durex-combo",
+            "button_1_link": "https:\/\/mybombae.in\/pages\/rollplay-razor?utm_source=organic_referral&utm_medium=BSC_website&utm_campaign=BSC&utm_id=BSC",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "e791ec55-e8d4-48b2-826b-f2567c828c26": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trimmer_Desktop.webp",
+            "mobile_image": "shopify:\/\/shop_images\/HRS_Mobile.webp",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "https:\/\/mybombae.in?utm_source=D2C+Tech&utm_medium=Website&utm_campaign=BSC&utm_id=BSC",
             "button_2_text": "",
             "button_2_link": ""
           }
@@ -94,31 +109,16 @@
             "button_2_text": "",
             "button_2_link": ""
           }
-        },
-        "fdd03a74-70c5-4c74-8a66-9eabe9c2e852": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Range.webp",
-            "mobile_image": "shopify:\/\/shop_images\/Range_Mobile_2.webp",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "https:\/\/mybombae.in\/pages\/rollplay-razor?utm_source=organic_referral&utm_medium=BSC_website&utm_campaign=BSC&utm_id=BSC",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
         }
       },
       "block_order": [
         "ab7168f3-b05d-42b3-9351-583cedcbdc26",
         "67196537-fdd7-4650-8470-a114bb26a984",
-        "e791ec55-e8d4-48b2-826b-f2567c828c26",
-        "32ffea8a-df40-4983-91f2-b49a91203d66",
         "5a2a6b54-877a-4df6-924b-9481b74a7d6f",
-        "c8020995-17d9-45cd-9d3e-bc02aba3dbdf",
-        "fdd03a74-70c5-4c74-8a66-9eabe9c2e852"
+        "32ffea8a-df40-4983-91f2-b49a91203d66",
+        "fdd03a74-70c5-4c74-8a66-9eabe9c2e852",
+        "e791ec55-e8d4-48b2-826b-f2567c828c26",
+        "c8020995-17d9-45cd-9d3e-bc02aba3dbdf"
       ],
       "settings": {
         "show_fullscreen": false,

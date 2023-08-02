@@ -343,7 +343,6 @@ gtag('config','AW-881045097', {'allow_enhanced_conversions':true});
   {%- endif -%}
 
   <body class="prestige--v4 {{ classes }} {% if template.directory %}template-{{ template.directory | handle }}{% endif %} template-{{ template.name | handle }} a{{ page.id }} prod-{{ product.id }}" id="jsfun">
-    {% comment %}
     {% if template == 'index' %}
           <!--Preloader -->
           <style>
@@ -360,7 +359,7 @@ gtag('config','AW-881045097', {'allow_enhanced_conversions':true});
            });
          </script>
           <!--Preloader end -->
-          {% endif %}{% endcomment %}
+          {% endif %}
     {%- comment -%}Common SVG definitions that we are re-using in several places{%- endcomment -%}
     <svg class="u-visually-hidden">
       <linearGradient id="rating-star-gradient-half">
