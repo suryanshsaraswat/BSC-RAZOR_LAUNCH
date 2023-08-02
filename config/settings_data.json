@@ -343,6 +343,7 @@
           },
           "9aced01d-f17f-4431-bb82-d03b27c3aa3f": {
             "type": "testimonial",
+            "disabled": true,
             "settings": {
               "Offer": "Tuesday Temptation: Shop for INR 795 and get Mexico Perfume worth INR 795 Free!",
               "image": "shopify:\/\/shop_images\/100X100.png",
