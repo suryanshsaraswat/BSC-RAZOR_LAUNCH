@@ -5,6 +5,7 @@
       "blocks": {
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/DESKTOP_321f6f60-d29d-46c8-8d7e-d143f7517666.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_BANNER.png",
