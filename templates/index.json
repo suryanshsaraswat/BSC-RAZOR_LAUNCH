@@ -139,34 +139,6 @@
         "html": "<a class=\"button button_primary\" href=\"\/pages\/gifting\">Explore More<\/a>"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "featured-collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-seller",
-            "title": "Shop Best Sellers",
-            "grid_items_count": 4,
-            "button_text": "View all Best Sellers"
-          }
-        }
-      },
-      "block_order": [
-        "featured-collection-0"
-      ],
-      "settings": {
-        "bg": "linear-gradient(180deg, rgb(99 195 255 \/ 45%), rgba(255, 255, 255, 1) 100%)",
-        "hcl": "#0d5ea8",
-        "title": "",
-        "layout_mode": "grid",
-        "show_product_info": true,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 4
-      }
-    },
     "ceb678ff-b04b-4548-8e64-b37aedaef435": {
       "type": "featured-collections",
       "blocks": {
@@ -187,6 +159,34 @@
         "bg": "linear-gradient(0deg, rgb(99 195 255 \/ 45%), rgba(255, 255, 255, 1) 100%)",
         "hcl": "#0d5ea8",
         "title": "Discover the latest and the greatest",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured-collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-seller",
+            "title": "Shop Best Sellers",
+            "grid_items_count": 4,
+            "button_text": "View all Best Sellers"
+          }
+        }
+      },
+      "block_order": [
+        "featured-collection-0"
+      ],
+      "settings": {
+        "bg": "linear-gradient(180deg, rgb(99 195 255 \/ 45%), rgba(255, 255, 255, 1) 100%)",
+        "hcl": "#0d5ea8",
+        "title": "",
         "layout_mode": "grid",
         "show_product_info": true,
         "show_vendor": false,
@@ -729,8 +729,8 @@
   "order": [
     "slideshow",
     "f0f9d148-a854-4731-a987-5d03b56b3438",
-    "featured-collections",
     "ceb678ff-b04b-4548-8e64-b37aedaef435",
+    "featured-collections",
     "06e88943-53f8-435e-98ca-fa0da8927714",
     "98db884a-8d53-451f-9486-c54afd6ebaca",
     "1f3870fc-2386-41f9-b13e-ac8b17474d3c",
