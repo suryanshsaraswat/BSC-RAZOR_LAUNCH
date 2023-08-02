@@ -761,7 +761,7 @@
               "subheading": "",
               "title": "",
               "button_1_text": "",
-              "button_1_link": "",
+              "button_1_link": "shopify:\/\/products\/sensi-smart-3",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -769,14 +769,14 @@
           "700cc044-cd60-43fc-9325-f255975a7a9b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/SensiFlo6_1.webp",
-              "mobile_image": "shopify:\/\/shop_images\/Flo6_Mobile_1.webp",
+              "image": "shopify:\/\/shop_images\/SensiFlo6_5.webp",
+              "mobile_image": "shopify:\/\/shop_images\/Flo6_Mobile_4.webp",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
               "title": "",
               "button_1_text": "",
-              "button_1_link": "",
+              "button_1_link": "shopify:\/\/products\/sensi-flo-6-razor",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -791,7 +791,7 @@
               "subheading": "",
               "title": "",
               "button_1_text": "",
-              "button_1_link": "",
+              "button_1_link": "shopify:\/\/products\/sensi-flo-4-razor",
               "button_2_text": "",
               "button_2_link": ""
             }
