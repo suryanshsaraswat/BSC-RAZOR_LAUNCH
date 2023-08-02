@@ -101,8 +101,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/BSC-m-website-banner-for-rollplay.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/BSC-m-website-mobile-banner-for-rollplay.jpg",
+            "image": "shopify:\/\/shop_images\/Range.webp",
+            "mobile_image": "shopify:\/\/shop_images\/Range_Mobile_2.webp",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",

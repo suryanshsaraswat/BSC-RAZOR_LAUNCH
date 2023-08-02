@@ -251,9 +251,9 @@
         ],
         "settings": {
           "use_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/BSC-logo.webp",
-          "logo_max_width": 155,
-          "mobile_logo_max_width": 115,
+          "logo": "shopify:\/\/shop_images\/BSC_Logo___for_site_2.gif",
+          "logo_max_width": 80,
+          "mobile_logo_max_width": 80,
           "show_country_selector": false,
           "show_locale_selector": false,
           "navigation_menu": "mega-menu",
