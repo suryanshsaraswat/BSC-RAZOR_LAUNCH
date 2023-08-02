@@ -197,9 +197,10 @@ h2.explor_razr{font-size:30px;margin-top:-24px;line-height:38px;margin-bottom:-1
 <script>$(".section-sixth").click(function() {
     window.scrollTo({top: 850, behavior: 'smooth'});
 });
-const targetElement = $('#go-downn');
-$('html, body').animate({
-  scrollTop: targetElement.offset().top
-}, 800); // You can adjust the scroll duration (in milliseconds) as needed
-</script>
+const scrollButton = $('#go-downn');
+
+scrollButton.click(function() {
+  $('html, body').animate({
+    scrollTop: $(window).scrollTop() + 300
+});
 <!-- JS ENDS HERE -->
