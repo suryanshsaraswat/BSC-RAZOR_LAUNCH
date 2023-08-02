@@ -1094,12 +1094,22 @@
               "razr_html": "<h3>4 MICRO-SPAN BLADES<\/h3>\n<h3>LUBRICATING STRIP WITH ALOE, MOROCCAN ARGAN OIL and VIT E<\/h3>\n<h3>BEARD STYLING BACK BLADE<\/h3>\n<h3>ERGONOMIC DESIGN<\/h3>\n<h3>FREE RAZOR SHARPENER<\/h3>",
               "top_color": "#259b47"
             }
+          },
+          "4db42fa8-ae2d-46be-aec5-a4bc1df8dbd2": {
+            "type": "product",
+            "settings": {
+              "prod": "razor-sharpener",
+              "razor_img": "shopify:\/\/shop_images\/Untitled_design_5.jpg",
+              "razr_html": "<p>Write your own custom HTML content.<\/p>",
+              "top_color": ""
+            }
           }
         },
         "block_order": [
           "9a74eb52-747c-4a6b-9333-e1de4914ca0a",
           "0fb9bf09-af9c-407e-b176-7da503d4e26e",
-          "1342f2df-5336-430e-ac5a-3c9f78a4f84f"
+          "1342f2df-5336-430e-ac5a-3c9f78a4f84f",
+          "4db42fa8-ae2d-46be-aec5-a4bc1df8dbd2"
         ],
         "settings": {
         }
