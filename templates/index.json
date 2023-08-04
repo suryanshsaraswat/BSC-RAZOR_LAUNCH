@@ -652,8 +652,8 @@
         "d05ffd11-2259-4041-b24f-b72672060e2d": {
           "type": "testimonial",
           "settings": {
-            "imags": "shopify:\/\/shop_images\/WebsiteBanner_Desktop_1_1800x_c3d71c0a-63ad-44d2-ba42-4fd2cc645cb9.webp",
-            "imags2": "shopify:\/\/shop_images\/WebsiteBanner_Mobile_1_x800_313fb7e0-d4e2-444b-8ee7-70b3ac0b548e.webp",
+            "imags": "shopify:\/\/shop_images\/WebsiteBanner_Desktop.webp",
+            "imags2": "shopify:\/\/shop_images\/WebsiteBanner_Mobile.webp",
             "linkk": ""
           }
         }
