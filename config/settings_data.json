@@ -333,12 +333,11 @@
         "blocks": {
           "6a1d9fdc-8e92-4bdd-a1c9-529d7ced8235": {
             "type": "testimonial",
-            "disabled": true,
             "settings": {
-              "Offer": "WEEKEND SALE: Grab Extraa 20% OFF on any two products! Use COde :XTRA20",
-              "image": "shopify:\/\/shop_images\/offer.png",
-              "coupon": "XTRA20",
-              "linkurl": "shopify:\/\/collections\/all-products"
+              "Offer": "RAZORS THAT ARE SENSITIVE TO YOUR SKIN - Explore our new line of razors!",
+              "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
+              "coupon": "",
+              "linkurl": "shopify:\/\/pages\/razors-for-men"
             }
           },
           "9aced01d-f17f-4431-bb82-d03b27c3aa3f": {
@@ -442,7 +441,7 @@
           "e1c63e88-683a-470a-a409-cb388b5f4daa"
         ],
         "settings": {
-          "text": "Prices slashed for a limited time!"
+          "text": "NEW LAUNCH: RAZORS THAT ARE SENSITIVE TO YOUR SKIN"
         }
       },
       "navbar": {
