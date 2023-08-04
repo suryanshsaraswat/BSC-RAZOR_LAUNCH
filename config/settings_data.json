@@ -268,6 +268,12 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "2e1aae32-0f41-4381-a97d-155c5e3ee2e2": {
+            "type": "links",
+            "settings": {
+              "menu": "quick-links-1"
+            }
+          },
           "footer-0": {
             "type": "text",
             "disabled": true,
@@ -275,12 +281,6 @@
               "title": "ABOUT US",
               "content": "<p>Bombay Shaving Company is a premium personal care and grooming solutions brand committed to delivering truly remarkable customer experiences. <\/p><p>Ours thoughtfully curated personal care regimens double-up as the perfect gifting options for special occasions, too. Come, shine like never before with products made with love!<\/p>",
               "show_social_media": true
-            }
-          },
-          "2e1aae32-0f41-4381-a97d-155c5e3ee2e2": {
-            "type": "links",
-            "settings": {
-              "menu": "quick-links-1"
             }
           },
           "23b43687-23d8-4375-99f8-82d790637443": {
@@ -304,8 +304,8 @@
           }
         },
         "block_order": [
-          "footer-0",
           "2e1aae32-0f41-4381-a97d-155c5e3ee2e2",
+          "footer-0",
           "23b43687-23d8-4375-99f8-82d790637443",
           "fa66a4f7-9596-4b57-a3b9-efd497f14c7e",
           "footer-2"
@@ -469,7 +469,7 @@
           "9d08cfe9-2e2f-4020-9527-af6099ab3c88": {
             "type": "testimonial",
             "settings": {
-              "text": "Razors for men",
+              "text": "Razors",
               "linkurl": "shopify:\/\/pages\/razors-for-men",
               "linkopen": false
             }
