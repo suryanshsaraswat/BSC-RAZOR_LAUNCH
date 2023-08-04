@@ -23,8 +23,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Desktop_1_5d9a9274-3173-4a1f-81bd-541562b505d0_1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Mobile_1_1_4e774ea0-ebb5-4558-b4cf-ff326f11a1d8_1.jpg",
+            "image": "shopify:\/\/shop_images\/Desktop_Banner_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Mbanner.png",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
