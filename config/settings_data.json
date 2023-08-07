@@ -334,6 +334,7 @@
         "blocks": {
           "6a1d9fdc-8e92-4bdd-a1c9-529d7ced8235": {
             "type": "testimonial",
+            "disabled": true,
             "settings": {
               "Offer": "WEEKEND SALE: BUY ANY 3 PRODUCTS AT 30% OFF!",
               "image": "shopify:\/\/shop_images\/offer.png",
@@ -442,7 +443,7 @@
           "e1c63e88-683a-470a-a409-cb388b5f4daa"
         ],
         "settings": {
-          "text": "WEEKEND SALE: Get 3 PRODUCTS AT 30% OFF"
+          "text": "NEW LAUNCH: RAZORS THAT ARE SENSITIVE TO YOUR SKIN"
         }
       },
       "navbar": {
