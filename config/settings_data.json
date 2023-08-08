@@ -344,12 +344,11 @@
           },
           "9aced01d-f17f-4431-bb82-d03b27c3aa3f": {
             "type": "testimonial",
-            "disabled": true,
             "settings": {
-              "Offer": "Tuesday Temptation: Shop for INR 795 and get Mexico Perfume worth INR 795 Free!",
+              "Offer": "Tuesday Temptation: Get FLAT 40% OFF on Combos and Kits",
               "image": "shopify:\/\/shop_images\/100X100.png",
               "coupon": "TUESDAY",
-              "linkurl": "shopify:\/\/collections\/all-products"
+              "linkurl": "shopify:\/\/collections\/combos-kits"
             }
           },
           "55c336c9-f065-4834-be0a-d3aef3293d04": {
@@ -443,7 +442,7 @@
           "e1c63e88-683a-470a-a409-cb388b5f4daa"
         ],
         "settings": {
-          "text": "NEW LAUNCH: RAZORS THAT ARE SENSITIVE TO YOUR SKIN"
+          "text": "TUESDAY TEMPTATION: Get flat 40% OFF oin kits"
         }
       },
       "navbar": {
