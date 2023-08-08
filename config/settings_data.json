@@ -332,6 +332,15 @@
       "new-annbar": {
         "type": "new-annbar",
         "blocks": {
+          "4a35f82b-a534-4b7f-af03-9e8cec58bd11": {
+            "type": "testimonial",
+            "settings": {
+              "Offer": "New Launch: Razors that are sensitive to skin!",
+              "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
+              "coupon": "",
+              "linkurl": "shopify:\/\/pages\/razors-for-men"
+            }
+          },
           "6a1d9fdc-8e92-4bdd-a1c9-529d7ced8235": {
             "type": "testimonial",
             "disabled": true,
@@ -378,16 +387,6 @@
               "linkurl": "shopify:\/\/products\/landscaper-durex-combo"
             }
           },
-          "4a35f82b-a534-4b7f-af03-9e8cec58bd11": {
-            "type": "testimonial",
-            "disabled": true,
-            "settings": {
-              "Offer": "Pamper your dad with our best selling gift kits. Enjoy upto 40% OFF.",
-              "image": "shopify:\/\/shop_images\/Blue_White_Illustration_Happy_Father_s_day_A4_Document_1.png",
-              "coupon": "",
-              "linkurl": "shopify:\/\/pages\/gifts-for-men-online"
-            }
-          },
           "425f49a4-fe06-48d7-bb7f-7a4fd3477926": {
             "type": "testimonial",
             "disabled": true,
@@ -430,12 +429,12 @@
           }
         },
         "block_order": [
+          "4a35f82b-a534-4b7f-af03-9e8cec58bd11",
           "6a1d9fdc-8e92-4bdd-a1c9-529d7ced8235",
           "9aced01d-f17f-4431-bb82-d03b27c3aa3f",
           "55c336c9-f065-4834-be0a-d3aef3293d04",
           "4e3350df-fe9a-4254-9ca5-dccc73df0f36",
           "37c6cd28-3c8c-495a-bb0b-667d173e862b",
-          "4a35f82b-a534-4b7f-af03-9e8cec58bd11",
           "425f49a4-fe06-48d7-bb7f-7a4fd3477926",
           "72e9a877-b969-4038-91d6-6462840b760a",
           "a1937f41-b177-43f7-bc19-75147c6b8ab0",
