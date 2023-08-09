@@ -1,6 +1,14 @@
+<style>
+  .razp-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+</style>
 <section data-section-id="reset-password" data-section-type="reset-password">
-  <div class="Container ">
-    <div class="">
+  <div class="Container">
+    <div class="razp-form">
       {%- form 'create_customer', name: 'create_customer', class: 'Form Form--spacingTight', id: 'create_customer' -%}
         {% comment %} <header class="Form__Header">
         <h1 class="Form__Title Heading u-h1">{{ 'customer.register.title' | t }}</h1>
