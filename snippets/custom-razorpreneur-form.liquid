@@ -84,7 +84,7 @@
           style="display: none;">
           <option value="">Select a university</option>
         </select>
-        <button type="submit" class="Form__Submit Button Button--primary Button--full">Apply Now</button>
+        <button type="submit" class="Form__Submit Button Button--primary Button--full" id="rzp-button">Apply Now</button>
       {%- endform -%}
     </div>
   </div>
@@ -113,4 +113,14 @@
       collegeDropdown.style.display = 'none';
     }
   })
+
+  document.getElementById('rzp-button').addEventListener('click', function(event) {
+    // Prevent the default button click behavior
+    event.preventDefault();
+
+    // Perform any actions you want when the button is clicked
+    // For example, show an alert:
+    alert("Button clicked!");
+});
+</script>
 </script>
