@@ -81,8 +81,15 @@
           </select>
         </div>
         <label>
-          <input type="checkbox" id="showDropdown"> Show College Dropdown
+          <input type="checkbox" id="showDropdown"> Are you a college student ?
         </label>
+        <select
+          id="dropdown"
+          style="display: none;"
+          name="customer[note][college]"
+          class="Form__Input">
+          <option value="">Select a university</option>
+        </select>
         <button type="submit" class="Form__Submit Button Button--primary Button--full">Apply Now</button>
       {%- endform -%}
     </div>
@@ -101,4 +108,15 @@
   }).catch(error => {
     console.log('Error:', error);
   });
+</script>
+<script>
+  const showDropdown = document.getElementById('showDropdown');
+  const collegeDropdown = document.getElementById('dropdown');
+  showDropdown.addEventListener('change', function() {
+    if (showDropdown.checked) {
+      collegeDropdown.style.display = 'block';
+    } else {
+      collegeDropdown.style.display = 'none';
+    }
+  })
 </script>
