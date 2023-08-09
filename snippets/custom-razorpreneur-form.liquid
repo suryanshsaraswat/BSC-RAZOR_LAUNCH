@@ -23,51 +23,51 @@
           </div>
         {%- endif -%}
 
-        {%- if request.locale.iso_code == 'ja' -%}
-          <div class="Form__Item">
-            <input
-              type="text"
-              class="Form__Input"
-              name="customer[last_name]"
-              aria-label="{{ 'customer.register.last_name' | t }}"
-              placeholder="{{ 'customer.register.last_name' | t }}">
-            <label class="Form__FloatingLabel">{{ 'customer.register.last_name' | t }}</label>
-          </div>
+        {% comment %} {%- if request.locale.iso_code == 'ja' -%}
+        <div class="Form__Item">
+        <input
+        type="text"
+        class="Form__Input"
+        name="customer[last_name]"
+        aria-label="{{ 'customer.register.last_name' | t }}"
+        placeholder="{{ 'customer.register.last_name' | t }}">
+        <label class="Form__FloatingLabel">{{ 'customer.register.last_name' | t }}</label>
+        </div>
 
-          <div class="Form__Item">
-            <input
-              type="text"
-              class="Form__Input"
-              name="customer[first_name]"
-              aria-label="{{ 'customer.register.first_name' | t }}"
-              placeholder="{{ 'customer.register.first_name' | t }}"
-              autofocus>
-            <label class="Form__FloatingLabel">{{ 'customer.register.first_name' | t }}</label>
-          </div>
+        <div class="Form__Item">
+        <input
+        type="text"
+        class="Form__Input"
+        name="customer[first_name]"
+        aria-label="{{ 'customer.register.first_name' | t }}"
+        placeholder="{{ 'customer.register.first_name' | t }}"
+        autofocus>
+        <label class="Form__FloatingLabel">{{ 'customer.register.first_name' | t }}</label>
+        </div>
         {%- else -%}
-          <div class="Form__Item" style="display:none">
-            <input
-              type="text"
-              class="Form__Input"
-              name="customer[first_name]"
-              aria-label="{{ 'customer.register.first_name' | t }}"
-              placeholder="{{ 'customer.register.first_name' | t }}"
-              value="razorpreneur"
-              autofocus>
-            <label class="Form__FloatingLabel">{{ 'customer.register.first_name' | t }}</label>
-          </div>
+        <div class="Form__Item" style="display:none">
+        <input
+        type="text"
+        class="Form__Input"
+        name="customer[first_name]"
+        aria-label="{{ 'customer.register.first_name' | t }}"
+        placeholder="{{ 'customer.register.first_name' | t }}"
+        value="razorpreneur"
+        autofocus>
+        <label class="Form__FloatingLabel">{{ 'customer.register.first_name' | t }}</label>
+        </div>
 
-          <div class="Form__Item" style="display:none">
-            <input
-              type="text"
-              class="Form__Input"
-              name="customer[last_name]"
-              aria-label="{{ 'customer.register.last_name' | t }}"
-              placeholder="{{ 'customer.register.last_name' | t }}"
-              value="customer">
-            <label class="Form__FloatingLabel">{{ 'customer.register.last_name' | t }}</label>
-          </div>
-        {%- endif -%}
+        <div class="Form__Item" style="display:none">
+        <input
+        type="text"
+        class="Form__Input"
+        name="customer[last_name]"
+        aria-label="{{ 'customer.register.last_name' | t }}"
+        placeholder="{{ 'customer.register.last_name' | t }}"
+        value="customer">
+        <label class="Form__FloatingLabel">{{ 'customer.register.last_name' | t }}</label>
+        </div>
+        {%- endif -%} {% endcomment %}
 
         <div class="Form__Item">
           <input
