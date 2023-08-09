@@ -352,6 +352,7 @@
           },
           "9aced01d-f17f-4431-bb82-d03b27c3aa3f": {
             "type": "testimonial",
+            "disabled": true,
             "settings": {
               "Offer": "Tuesday Temptation: Get FLAT 40% OFF on Combos and Kits",
               "image": "shopify:\/\/shop_images\/100X100.png",
@@ -440,7 +441,7 @@
           "e1c63e88-683a-470a-a409-cb388b5f4daa"
         ],
         "settings": {
-          "text": "TUESDAY TEMPTATION: Get flat 40% OFF on kits"
+          "text": "NEW  LAUNCH: RAZORS THAT ARE SENSITIVE TO SKIN"
         }
       },
       "navbar": {
