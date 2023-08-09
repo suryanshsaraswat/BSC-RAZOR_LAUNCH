@@ -3,8 +3,8 @@
   "type": {{ settings.cart_type | json }},
   "itemCount": {{ cart.item_count }},
   "drawer": true,
-      "hasShippingEstimator": false
-    }{%- endcapture -%}
+    "hasShippingEstimator": false
+  }{%- endcapture -%}
 
 <div
   id="sidebar-cart"
@@ -111,24 +111,12 @@
           {%- endif -%}
         {%- endif -%}
         <div id="wk_get_cashback" customer_id="{{ customer.id }}"></div>
-        {% if product.id == 7709336010906 %}
-          <button
-            type="submit"
-            name="checkout"
-            onclick="onNativeCheckoutClick()"
-            class="Cart__Checkout Button Button--primary Button--full">
-            <span>
-              {% if settings.btnTxt %}
-                {{ settings.gk-merchant-btnText }}
-              {% else %}
-                {{- 'cart.general.checkout' | t -}}{% endif %}
-            </span>
-            <span class="Button__SeparatorDot"></span>
-            <span>{{ cart.total_price | money_with_currency }}</span>
-          </button>
-        {% else %}
-          {% render 'gokwik-checkout' %}
-        {% endif %}
+        <!--         <button type="submit" name="checkout" onclick="onNativeCheckoutClick()" class="Cart__Checkout Button Button--primary Button--full">
+        <span>{% if settings.btnTxt %}{{settings.gk-merchant-btnText}}{%else%}{{- 'cart.general.checkout' | t -}}{%endif%}</span>
+        {%comment%}<span class="Button__SeparatorDot"></span>
+        <span>{{ cart.total_price | money_with_currency }}</span>{%endcomment%}
+        </button> -->
+        {% render 'gokwik-checkout' %}
         <!--         <button type="button" id="checkout2"  onclick="handleFloCheckoutBtn()" class="Cart__Checkout Button Button--primary Button--full" name="checkout2">
         <span>{% if settings.btnTxt %}{{settings.gk-merchant-btnText}}{%else%}{{- 'cart.general.checkout' | t -}}{%endif%}</span>
         {%comment%}<span class="Button__SeparatorDot"></span>
@@ -138,9 +126,8 @@
         Redeem Gift Card
         </button> -->
 
-        {%- if settings.cart_enable_notes -%}
-          <div class="Cart__OffscreenNoteContainer" aria-hidden="true">
-            {%- if cart.note == blank -%}
+          {%- if settings.cart_enable_notes -%}
+            <div class="Cart__OffscreenNoteContainer" aria-hidden="true"> {%- if cart.note == blank -%}
               <span class="Cart__NoteButton">{{ 'cart.general.add_note' | t }}</span>
             {%- else -%}
               <span class="Cart__NoteButton">{{ 'cart.general.edit_note' | t }}</span>
