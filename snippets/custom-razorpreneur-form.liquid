@@ -31,6 +31,7 @@
               name="customer[last_name]"
               aria-label="{{ 'customer.register.last_name' | t }}"
               placeholder="{{ 'customer.register.last_name' | t }}">
+            value="customer"
             <label class="Form__FloatingLabel">{{ 'customer.register.last_name' | t }}</label>
           </div>
 
@@ -41,6 +42,7 @@
               name="customer[first_name]"
               aria-label="{{ 'customer.register.first_name' | t }}"
               placeholder="{{ 'customer.register.first_name' | t }}"
+              value="customer"
               autofocus>
             <label class="Form__FloatingLabel">{{ 'customer.register.first_name' | t }}</label>
           </div>
@@ -52,6 +54,7 @@
               name="customer[first_name]"
               aria-label="{{ 'customer.register.first_name' | t }}"
               placeholder="{{ 'customer.register.first_name' | t }}"
+              value="razorpreneur"
               autofocus>
             <label class="Form__FloatingLabel">{{ 'customer.register.first_name' | t }}</label>
           </div>
@@ -62,7 +65,8 @@
               class="Form__Input"
               name="customer[last_name]"
               aria-label="{{ 'customer.register.last_name' | t }}"
-              placeholder="{{ 'customer.register.last_name' | t }}">
+              placeholder="{{ 'customer.register.last_name' | t }}"
+              value="customer">
             <label class="Form__FloatingLabel">{{ 'customer.register.last_name' | t }}</label>
           </div>
         {%- endif -%}
@@ -74,7 +78,6 @@
             name="customer[email]"
             aria-label="{{ 'customer.register.email' | t }}"
             placeholder="{{ 'customer.register.email' | t }}"
-            value="default@example.com"
             required="required">
           <label class="Form__FloatingLabel">{{ 'customer.register.email' | t }}</label>
         </div>
@@ -100,54 +103,6 @@
             placeholder="Phone"
             required="required" />
           <label for="register_phone_number" class="form-field-title"></label><br/>
-        </div>
-        <div class="Form__Item DOB">
-          <input
-            type="date"
-            id="dateofbirth"
-            class="Form__Input"
-            name="customer[note][DOB]"
-            placeholder=""
-            required="required" />
-        </div>
-        <!--       <div class="Form__Item catee">
-        <select name="customer[note][prefered category]" id="cate" class="Form__Input" placeholder="Preferred category" required="required">
-        <option value="" disabled selected>Select your Category</option>
-        <option value="Shave">Shave</option>
-        <option value="Beard">Beard</option>
-        <option value="Bath">Bath</option>
-        <option value="Skin">skin</option>
-        </select>
-        </div> -->
-        <div class="gnder">
-          <label>
-            <input
-              type="radio"
-              name="customer[note][gender]"
-              value="Male"
-              checked />
-            <div class="front-end box">
-              <span>Male</span>
-            </div>
-          </label>
-          <label>
-            <input
-              type="radio"
-              name="customer[note][gender]"
-              value="Female" />
-            <div class="back-end box">
-              <span>Female</span>
-            </div>
-          </label>
-          <label>
-            <input
-              type="radio"
-              name="customer[note][gender]"
-              value="Preferred not to say" />
-            <div class="front-end box">
-              <span>Preferred Not To Say</span>
-            </div>
-          </label>
         </div>
         <select
           id="dropdown"
