@@ -1,0 +1,39 @@
+<form
+  method="post"
+  action="/account"
+  id="create_customer"
+  accept-charset="UTF-8">
+  <input
+    type="hidden"
+    name="form_type"
+    value="create_customer">
+  <input
+    type="hidden"
+    name="utf8"
+    value="✓">
+  <input
+    type="text"
+    placeholder="First Name"
+    value
+    name="customer[first_name]"
+    id="customer_first_name">
+  <input
+    type="text"
+    placeholder="Last Name"
+    value
+    name="customer[last_name]"
+    id="customer_last_name">
+  <input
+    type="text"
+    placeholder="Email"
+    value
+    name="customer[email]"
+    id="customer_email">
+  <input
+    type="password"
+    placeholder="Password"
+    value
+    name="customer[password]"
+    id="customer_password">
+  <input type="submit" value="Register">
+</form>
