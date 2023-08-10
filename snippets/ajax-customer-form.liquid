@@ -37,3 +37,13 @@
     id="customer_password">
   <input type="submit" value="Register">
 </form>
+<script>
+  jQuery(function() {
+    jQuery('#create_customer').submit(function(event) {
+      event.preventDefault();
+      var data = jQuery(this).serialize();
+
+      console.log(data);
+    });
+  });
+</script>
