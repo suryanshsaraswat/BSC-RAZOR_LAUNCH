@@ -47,3 +47,48 @@
     });
   });
 </script>
+<script>
+  function createAccount(firstName, lastName, email, password) {
+    var escapedData = {
+      firstName: escape(firstName),
+      lastName: escape(lastName),
+      email: escape(email),
+      password: escape(password).replace(/\+/g, '%2B')
+    }
+    var data = 'form_type=create_customer&utf8=%E2%9C%93&customer%5Bfirst_name%5D=';
+    data += escapeData.firstName;
+    data += '&customer%5Blast_name%5D=';
+    data += escapedData.lastName;
+    data += '&customer%5Bemail%5D=';
+    data += escapedData.email;
+    data += '&customer%5Bpassword%5D=';
+    data += escapedData.password;
+  }
+  function createAccount(firstName, lastName, email, password) {
+    var escapedData = {
+      firstName: escape(firstName),
+      lastName: escape(lastName),
+      email: escape(email),
+      password: escape(password).replace(/\+/g, '%2B')
+    }
+    var data = 'form_type=create_customer&utf8=%E2%9C%93&customer%5Bfirst_name%5D=';
+    data += escapeData.firstName;
+    data += '&customer%5Blast_name%5D=';
+    data += escapedData.lastName;
+    data += '&customer%5Bemail%5D=';
+    data += escapedData.email;
+    data += '&customer%5Bpassword%5D=';
+    data += escapedData.password;
+    jQuery.post('/account', data).done(function(response) {
+      var logErrors = jQuery(response).find('.errors').text();
+      if (logErrors != '' && logErrors != 'undefined') {
+        alert(logErrors);
+      } else {
+        alert('success!');
+      }
+    }).fail(function() {
+      alert('error could not submit');
+    });
+    return false;
+  }
+</script>
