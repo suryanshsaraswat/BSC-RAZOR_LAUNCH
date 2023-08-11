@@ -24,16 +24,6 @@
       {{ product.metafields.my_fields.long-description.value }}
     </div>
   </div>
-    {% elsif product.metafields.my_fields.long_description != 'blank' %}
-    <div class="set">
-    <a href="#" class="active">
-      Additional Descprition
-      <i class="fa-minus"></i> 
-    </a>
-    <div class="content" style="display:block">
-      <p>{{ product.metafields.my_fields.long_description }}</p>
-    </div>
-  </div>
     {% endif %}
    {%- for block in section.blocks -%}
   {% if block.settings.ans != blank %}
