@@ -91,7 +91,6 @@
       "blocks": {
         "9100363d-baf0-4c0b-b428-0b8aba6caa62": {
           "type": "shopify:\/\/apps\/bsc-troopod-shopable\/blocks\/app-block\/e9ed15f7-0469-42bf-a44e-9c9a2b36604c",
-          "disabled": true,
           "settings": {
           }
         }
