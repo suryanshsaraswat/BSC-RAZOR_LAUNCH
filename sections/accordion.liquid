@@ -8,13 +8,34 @@
   .set > a p{margin-bottom:0}  
 .set > a i::before {position: absolute; content: "+"; font-weight: 800; font-size: 22px; top: -10px; right: 0;}
   .set > a.active i::before{content: "-";}
+  .content.cust li {padding: 10px;}
   .content{background-color:#fff;display:none}
 .content p{padding:10px 15px;margin:0;color:#333;font-weight: 500;}
   #shopify-section-template--15479207035034__165235153360709679 .Container h3{display:none}
 </style>
 
 <div class="accordion-container">
-  
+  {% if product.metafields.my_fields.long-description != blank %}
+  <div class="set custom">
+    <a href="#" class="active">
+      Additional Descprition
+      <i class="fa-minus"></i> 
+    </a>
+    <div class="content cust" style="display:block">
+      {{ product.metafields.my_fields.long-description.value }}
+    </div>
+  </div>
+  {% else %}
+    <div class="set custom" style="display:none">
+    <a href="#" class="active">
+      Additional Descprition
+      <i class="fa-minus"></i> 
+    </a>
+    <div class="content" style="display:block">
+      {{ product.metafields.my_fields.long-description.value }}
+    </div>
+  </div>
+    {% endif %}
    {%- for block in section.blocks -%}
   {% if block.settings.ans != blank %}
   {% if block.settings.open == true %}
