@@ -1,5 +1,8 @@
 <style>
-  .set {
+  .accordian-main.rzp {
+    background-color: : #00bed6;
+  }
+  .set.rzp {
     position: relative;
     width: 100%;
     height: auto;
@@ -9,7 +12,7 @@
     box-shadow: 0 0 12px 0 #00000017;
     overflow: hidden;
   }
-  .set > a {
+  .set.rzp > a {
     display: block;
     padding: 15px;
     text-decoration: none;
@@ -19,19 +22,19 @@
     -moz-transition: all 0.2s linear;
     transition: all 0.2s linear
   }
-  .set > a i {
+  .set.rzp > a i {
     float: right;
     margin-top: 2px;
     position: relative
   }
-  .set > a.active {
+  .set.rzp > a.active {
     background-color: #00bed6;
     color: #fff
   }
-  .set > a p {
+  .set.rzp > a p {
     margin-bottom: 0
   }
-  .set > a i::before {
+  .set.rzp > a i::before {
     position: absolute;
     content: "+";
     font-weight: 800;
@@ -39,17 +42,17 @@
     top: -10px;
     right: 0;
   }
-  .set > a.active i::before {
+  .set.rzp > a.active i::before {
     content: "-";
   }
   .content.cust li {
     padding: 10px;
   }
-  .content {
+  .content.cust {
     background-color: #00bed6;
-    display: none
+    display: none;
   }
-  .content p {
+  .content.cust p {
     padding: 10px 15px;
     margin: 0;
     color: #fff;
@@ -75,7 +78,7 @@
 <div class="login-form">
   {% render 'custom-razorpreneur-form' %}
 </div>
-<div class="accordian-main">
+<div class="accordian-main rzp">
   <div class="set rzp">
     <a href="#" class="active">
       What is Razorpreneur?
