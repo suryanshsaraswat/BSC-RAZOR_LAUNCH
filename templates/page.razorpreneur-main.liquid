@@ -294,11 +294,10 @@
       </div>
     </div>
   </div>
-  <div class="rzp-buttons">
-    <a href="#" class="rzp-button learn-more">Learn More</a>
-    <a href="#" class="rzp-button apply-now">Apply Now</a>
-  </div>
-</div>
+  {% comment %} <div class="rzp-buttons">
+  <a href="#" class="rzp-button learn-more">Learn More</a>
+  <a href="#" class="rzp-button apply-now">Apply Now</a>
+  </div> {% endcomment %}</div>
 {% comment %} <div class="section-4">
 <div class="s4-heading">
 <h2>What Makes You a<br><span class="rzp-head">Razorpreneur ?</span>
@@ -336,24 +335,23 @@ class="arrow right"
 width="120px"
 height="120px">
 </div>
-</div> {% endcomment %}<div class="section-5">
+</div> {% endcomment %}{% comment %} <div class="section-5">
   <div class="s5-marquee">
-    {% section 'rzp-marqeee' %}
+  {% section 'rzp-marqeee' %}
   </div>
   <div class="s5-flex">
-    <div class="s5-left-section">
-      <h2>Lorem ipsum dolor sit amet consectetur</h2>
-    </div>
-    <div class="s5-right-section">
-      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra, quisque sed justo praesent nisi proin felis eu et, odio egestas nec nostra volutpat scelerisque litora. Bibendum donec commodo</p>
-      <div class="rzp-buttons">
-        <a href="#" class="rzp-button learn-more">Learn More</a>
-        <a href="#" class="rzp-button apply-now">Apply Now</a>
-      </div>
-    </div>
+  <div class="s5-left-section">
+  <h2>Lorem ipsum dolor sit amet consectetur</h2>
   </div>
-</div>
-<script>
+  <div class="s5-right-section">
+  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra, quisque sed justo praesent nisi proin felis eu et, odio egestas nec nostra volutpat scelerisque litora. Bibendum donec commodo</p>
+  <div class="rzp-buttons">
+  <a href="#" class="rzp-button learn-more">Learn More</a>
+  <a href="#" class="rzp-button apply-now">Apply Now</a>
+  </div>
+  </div>
+  </div>
+  </div> {% endcomment %}<script>
   $('.s3-slider').slick({
     centerMode: true,
     centerPadding: '370px',
