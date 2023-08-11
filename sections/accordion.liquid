@@ -24,6 +24,16 @@
       {{ product.metafields.my_fields.long-description.value }}
     </div>
   </div>
+  {% else %}
+    <div class="set" style="display:none">
+    <a href="#" class="active">
+      Additional Descprition
+      <i class="fa-minus"></i> 
+    </a>
+    <div class="content" style="display:block">
+      {{ product.metafields.my_fields.long-description.value }}
+    </div>
+  </div>
     {% endif %}
    {%- for block in section.blocks -%}
   {% if block.settings.ans != blank %}
