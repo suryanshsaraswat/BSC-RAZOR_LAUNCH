@@ -1,0 +1,107 @@
+<style>
+  .set {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 0 #00000017;
+    overflow: hidden;
+  }
+  .set > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #0d5ea8;
+    font-weight: 600;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear
+  }
+  .set > a i {
+    float: right;
+    margin-top: 2px;
+    position: relative
+  }
+  .set > a.active {
+    background-color: #0d5ea8;
+    color: #fff
+  }
+  .set > a p {
+    margin-bottom: 0
+  }
+  .set > a i::before {
+    position: absolute;
+    content: "+";
+    font-weight: 800;
+    font-size: 22px;
+    top: -10px;
+    right: 0;
+  }
+  .set > a.active i::before {
+    content: "-";
+  }
+  .content.cust li {
+    padding: 10px;
+  }
+  .content {
+    background-color: #fff;
+    display: none
+  }
+  .content p {
+    padding: 10px 15px;
+    margin: 0;
+    color: #333;
+    font-weight: 500;
+  }
+</style>
+<div class="banner-section">
+  <div class="desktopbanner">
+    <img
+      src=""
+      width="100%"
+      height="auto"
+      alt="desktop faq banner">
+  </div>
+  <div class="mobilebanner">
+    <img
+      src=""
+      width="100%"
+      height="auto"
+      alt="mobile faq banner">
+  </div>
+</div>
+<div class="login-form">
+  {% render 'custom-razorpreneur-form' %}
+</div>
+<div class="accordian-main">
+  <div class="set custom">
+    <a href="#" class="active">
+      What is Razorpreneur?
+      <i class="fa-minus"></i>
+    </a>
+    <div class="content cust" style="display:block">
+      Bombay Shaving Company's Razorpreneur is India's largest live entrepreneurship challenge  to test, hone and build Young India’s selling skills through ‘sell me a razor’ contest.
+    </div>
+  </div>
+</div>
+<script>
+  $(document).ready(function() {
+    $(".set > a").on("click", function(e) {
+      e.preventDefault();
+      if ($(this).hasClass("active")) {
+        $(this).removeClass("active");
+        $(this).siblings(".content").slideUp(200);
+        $(".set > a i").removeClass("fa-minus").addClass("fa-plus");
+      } else {
+        $(".set > a i").removeClass("fa-minus").addClass("fa-plus");
+        $(this).find("i").removeClass("fa-plus").addClass("fa-minus");
+        $(".set > a").removeClass("active");
+        $(this).addClass("active");
+        $(".content").slideUp(200);
+        $(this).siblings(".content").slideDown(200);
+      }
+    });
+  });
+</script>
