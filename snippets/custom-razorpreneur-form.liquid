@@ -82,17 +82,68 @@
   </div>
 </section>
 <script>
-  fetch('//cdn.shopify.com/s/files/1/0459/6563/9834/t/161/assets/pincodes_BSC.json?v=14671247148063286691676096992').then(response => response.json()).then(data => {
-    const records = data.records;
-    const dropdown = document.getElementById('dropdown');
-    records.forEach(record => {
-      const option = document.createElement('option');
-      option.value = record.college_name;
-      option.textContent = record.college_name;
-      dropdown.appendChild(option);
-    });
-  }).catch(error => {
-    console.log('Error:', error);
+  var collegeNames = [
+    "IIM Lucknow",
+    "Christ College",
+    "Lovely Professional University",
+    "Amity University (Noida)",
+    "Sharda University",
+    "Manav Rachna International University",
+    "Ashoka University",
+    "Jaipur National University",
+    "NMIMS, Mumbai",
+    "Galgotiya University",
+    "Amity University (Gurgaon)",
+    "Ansal University Gurgaon",
+    "Apeejay Stya University",
+    "Kurukshetra University",
+    "DU",
+    "IIM Udaipur",
+    "GL Bajaj Institution of Technology & Management",
+    "B R Ambedkar National Institute Of Technology",
+    "CT Group of Institutions",
+    "DAV University",
+    "A Pee Jay Institute of Management",
+    "Central University of Haryana",
+    "Chaudhary Devi Lal University",
+    "G D Goenka University, Gurgaon",
+    "Maharishi Markandeshwar University, Mullana",
+    "Bharti Vidyapeeth, Sonipat_Campus",
+    "JECRC University",
+    "Bhupal Nobeles University",
+    "Jodhpur National University",
+    "Jai Naraiin Vyas Unniversity old Campus",
+    "IIM Jammu",
+    "MICA",
+    "MNIMS, Bangalore",
+    "IIM, Lucknow",
+    "SRCC",
+    "ISB&M Pune",
+    "NMIMS, Bangalore",
+    "IIT Delhi, MBA",
+    "IMT, Ghaziabad",
+    "SIBM, Hydrabad",
+    "IIT Bombay",
+    "NIT Hamirpur",
+    "Sri Guru Gobind Singh College of Commerce, University of Delhi",
+    "IIM Rohtak",
+    "MDI Gurgaon",
+    "DoMS IIT Roorkee",
+    "IIT Delhi",
+    "MDI Murshidabad",
+    "K J Somaiya",
+    "IIM Bodh Gaya",
+    "IBS, Gurgaon",
+    "Indian Institute of Mass Communication",
+    "Gargi College, DU",
+    "NMIMS Indore",
+    "IIM, Kashipur"
+  ];
+
+// Populate the dropdown with college names
+  var select = $("#dropdown");
+  $.each(collegeNames, function(index, value) {
+    select.append($("<option></option>").val(value).html(value));
   });
 </script>
 <script>
