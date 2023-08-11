@@ -24,7 +24,7 @@
       {{ product.metafields.my_fields.long-description.value }}
     </div>
   </div>
-    {% else %}
+    {% elsif product.metafields.my_fields.long_description != 'blank' %}
     <div class="set">
     <a href="#" class="active">
       Additional Descprition
