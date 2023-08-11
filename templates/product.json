@@ -208,7 +208,7 @@
           "type": "testimonial",
           "settings": {
             "que": "Additional Descripton",
-            "ans": "<p>{{ product.metafields.custom.long_descriptionnn.value }}<\/p>",
+            "ans": "",
             "open": true
           }
         }
