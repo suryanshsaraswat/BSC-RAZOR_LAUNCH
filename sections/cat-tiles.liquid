@@ -1,4 +1,22 @@
-<style></style>
+<style>
+  .nav-main {
+    max-width: 100%;
+    width: 1300px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+  }
+  .nav-clid {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 20px;
+    width: 100%;
+    padding: 20px;
+    transition: 0.4s;
+  }
+</style>
 <div class="nav-main">
   <div class="nav-clid">
     {% for block in section.blocks %}
