@@ -124,6 +124,24 @@
             "cat_tile_image": "shopify:\/\/shop_images\/trimmer_1903f2be-7046-4ccf-919a-17c168f9f05f.png",
             "linkopen": false
           }
+        },
+        "42bad9a6-147e-4598-865d-028da1928e4f": {
+          "type": "homepage",
+          "settings": {
+            "heading_nav": "Enter Title",
+            "linkurl_nav": "",
+            "cat_tile_image": "shopify:\/\/shop_images\/hair_a2baadaf-a0ba-412b-972c-b0494a9e1070.png",
+            "linkopen": false
+          }
+        },
+        "249362af-412f-4a36-8ab9-65b7caf244a8": {
+          "type": "homepage",
+          "settings": {
+            "heading_nav": "Enter Title",
+            "linkurl_nav": "",
+            "cat_tile_image": "shopify:\/\/shop_images\/shaving.png",
+            "linkopen": false
+          }
         }
       },
       "block_order": [
@@ -132,7 +150,9 @@
         "c7597353-a82f-4fc4-bdd1-22b3ef604989",
         "52e96079-19f0-414c-ba01-2ce4b1dd0ed7",
         "cb36fb0b-588a-4cb2-8a84-5b74f7c6cf15",
-        "6513b90b-3c2a-479a-9cbe-f3967666de9a"
+        "6513b90b-3c2a-479a-9cbe-f3967666de9a",
+        "42bad9a6-147e-4598-865d-028da1928e4f",
+        "249362af-412f-4a36-8ab9-65b7caf244a8"
       ],
       "settings": {
       }
