@@ -485,7 +485,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Trimmers",
-              "linkurl": "shopify://pages/trimmers-for-men-1",
+              "linkurl": "shopify://pages/trimmer-page",
               "linkopen": false
             }
           },
