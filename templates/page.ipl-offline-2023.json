@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -10,8 +19,7 @@
     "1657523681299f51d6": {
       "type": "animated-counters",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "948340d7-cea1-45a0-b784-f918118f4d5c": {
       "type": "slideshow",
@@ -19,8 +27,8 @@
         "template--16072182300826__948340d7-cea1-45a0-b784-f918118f4d5c-1681998751bcffab21-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1920x650_4_ccb54a0b-39c0-44b6-94ee-79b7bb4cf8e8.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/800x600_3_4cf83b4f-f962-4a0d-b9ff-615bba31ca18.jpg",
+            "image": "shopify://shop_images/1920x650_4_ccb54a0b-39c0-44b6-94ee-79b7bb4cf8e8.jpg",
+            "mobile_image": "shopify://shop_images/800x600_3_4cf83b4f-f962-4a0d-b9ff-615bba31ca18.jpg",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
@@ -34,8 +42,8 @@
         "template--16072182300826__948340d7-cea1-45a0-b784-f918118f4d5c-1681998751bcffab21-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1920x650_5_fe053504-46a4-4861-9ce9-3760ec0e08f2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/800x600_5_39296e5e-9b0a-4db7-8823-5bd0a768e266.jpg",
+            "image": "shopify://shop_images/1920x650_5_fe053504-46a4-4861-9ce9-3760ec0e08f2.jpg",
+            "mobile_image": "shopify://shop_images/800x600_5_39296e5e-9b0a-4db7-8823-5bd0a768e266.jpg",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
@@ -66,7 +74,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<h1 style=\"font-size:20px;margin:0; text-transform:capitalize;letter-spacing:0;color:#fff\">Share your details to Register<\/h1>"
+        "html": "<h1 style=\"font-size:20px;margin:0; text-transform:capitalize;letter-spacing:0;color:#fff\">Share your details to Register</h1>"
       }
     },
     "42fbc57c-75a1-45f2-85a7-f9d4cbe6de53": {
@@ -75,8 +83,8 @@
         "f241c792-5f18-406d-b8f7-ec393e34bda1": {
           "type": "testimonial",
           "settings": {
-            "imags": "shopify:\/\/shop_images\/1920x650_4_ccb54a0b-39c0-44b6-94ee-79b7bb4cf8e8.jpg",
-            "imags2": "shopify:\/\/shop_images\/800x600_3_4cf83b4f-f962-4a0d-b9ff-615bba31ca18.jpg",
+            "imags": "shopify://shop_images/1920x650_4_ccb54a0b-39c0-44b6-94ee-79b7bb4cf8e8.jpg",
+            "imags2": "shopify://shop_images/800x600_3_4cf83b4f-f962-4a0d-b9ff-615bba31ca18.jpg",
             "linkk": ""
           }
         }
@@ -85,8 +93,7 @@
         "f241c792-5f18-406d-b8f7-ec393e34bda1"
       ],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "c1737f44-d06d-44ed-affc-3f3c9d8b83c2": {
       "type": "custom-liquid",
@@ -155,43 +162,43 @@
         "dd74417d-b14c-4348-beda-3dfef2645fb2": {
           "type": "prodduct",
           "settings": {
-            "collection_img": "shopify:\/\/shop_images\/ShaveCare_4b8ea933-6fd1-4378-8b6a-afdc49355a4a.jpg",
-            "collection_url": "shopify:\/\/pages\/shaving-products-for-men"
+            "collection_img": "shopify://shop_images/ShaveCare_4b8ea933-6fd1-4378-8b6a-afdc49355a4a.jpg",
+            "collection_url": "shopify://pages/shaving-products-for-men"
           }
         },
         "48fde2eb-4f8f-4298-a759-1bbefb698879": {
           "type": "prodduct",
           "settings": {
-            "collection_img": "shopify:\/\/shop_images\/TrimCare_1.jpg",
-            "collection_url": "shopify:\/\/pages\/trimmers-for-men"
+            "collection_img": "shopify://shop_images/TrimCare_1.jpg",
+            "collection_url": "shopify://pages/trimmers-for-men-1"
           }
         },
         "75a94a50-8f44-4e9e-abd7-33686469645f": {
           "type": "prodduct",
           "settings": {
-            "collection_img": "shopify:\/\/shop_images\/Fragrance_88868319-72df-4531-88f2-b92cdaaaaf10.jpg",
-            "collection_url": "shopify:\/\/pages\/buy-perfumes-fragrances-for-men"
+            "collection_img": "shopify://shop_images/Fragrance_88868319-72df-4531-88f2-b92cdaaaaf10.jpg",
+            "collection_url": "shopify://pages/buy-perfumes-fragrances-for-men"
           }
         },
         "017a8221-d558-47b6-ae03-d6b719bee131": {
           "type": "prodduct",
           "settings": {
-            "collection_img": "shopify:\/\/shop_images\/CFSK_5f5395e6-0648-4c75-971b-5bc2fb77fc66.jpg",
-            "collection_url": "shopify:\/\/pages\/skin-care-products-for-men"
+            "collection_img": "shopify://shop_images/CFSK_5f5395e6-0648-4c75-971b-5bc2fb77fc66.jpg",
+            "collection_url": "shopify://pages/skin-care-products-for-men"
           }
         },
         "00a5663e-19fe-41af-a5d4-afbc450896a8": {
           "type": "prodduct",
           "settings": {
-            "collection_img": "shopify:\/\/shop_images\/BathCare_f9d1112f-9977-438c-bcdf-d5808f85e072.jpg",
-            "collection_url": "shopify:\/\/pages\/bath-care-products-for-men"
+            "collection_img": "shopify://shop_images/BathCare_f9d1112f-9977-438c-bcdf-d5808f85e072.jpg",
+            "collection_url": "shopify://pages/bath-care-products-for-men"
           }
         },
         "139fd5d1-5909-4393-9c89-cb30a2827b79": {
           "type": "prodduct",
           "settings": {
-            "collection_img": "shopify:\/\/shop_images\/HairCare_baef0e97-165e-4cdf-ae82-4cdb9f030e15.jpg",
-            "collection_url": "shopify:\/\/pages\/hair-care-products-for-men"
+            "collection_img": "shopify://shop_images/HairCare_baef0e97-165e-4cdf-ae82-4cdb9f030e15.jpg",
+            "collection_url": "shopify://pages/hair-care-products-for-men"
           }
         }
       },
@@ -252,7 +259,7 @@
           "type": "testimonial",
           "settings": {
             "que": "What is the lucky draw, and how can I participate?",
-            "ans": "<p>Our company is organizing a lucky draw where customers can participate by purchasing Bombaypurchasing a Bombay Shaving Company products from website, offline stores or any of the channels. The details required include personal information such as name, email ID, and contact number, as well as uploading the invoice (picture of the bill) on the same page.<\/p>",
+            "ans": "<p>Our company is organizing a lucky draw where customers can participate by purchasing Bombaypurchasing a Bombay Shaving Company products from website, offline stores or any of the channels. The details required include personal information such as name, email ID, and contact number, as well as uploading the invoice (picture of the bill) on the same page.</p>",
             "open": false
           }
         },
@@ -260,7 +267,7 @@
           "type": "testimonial",
           "settings": {
             "que": "What products are eligible for the lucky draw?",
-            "ans": "<p>The lucky draw is applicable for all Bombay Shaving Company products available on the website, offline stores or any of the sites like Amazon, Flipkart etc.<\/p>",
+            "ans": "<p>The lucky draw is applicable for all Bombay Shaving Company products available on the website, offline stores or any of the sites like Amazon, Flipkart etc.</p>",
             "open": false
           }
         },
@@ -268,7 +275,7 @@
           "type": "testimonial",
           "settings": {
             "que": "What products are eligible for the lucky draw?",
-            "ans": "<p>The lucky draw is applicable for all Bombay Shaving Company products available on the website, offline stores or any of the sites like Amazon, Flipkart etc.<\/p>",
+            "ans": "<p>The lucky draw is applicable for all Bombay Shaving Company products available on the website, offline stores or any of the sites like Amazon, Flipkart etc.</p>",
             "open": false
           }
         },
@@ -276,7 +283,7 @@
           "type": "testimonial",
           "settings": {
             "que": "How many times can I participate in the lucky draw?",
-            "ans": "<p>Each customer can participate in the lucky draw any number of times the more you purchase the more chances of winning any of the 3 prizes.<\/p>",
+            "ans": "<p>Each customer can participate in the lucky draw any number of times the more you purchase the more chances of winning any of the 3 prizes.</p>",
             "open": false
           }
         },
@@ -284,7 +291,7 @@
           "type": "testimonial",
           "settings": {
             "que": "When will the lucky draw winners be announced?",
-            "ans": "<p>The lucky draw winners will be announced in 3 ways <\/p><p>i) Daily Winners - will get a chance to win IPL ticket or BSC Hampers which will be announced daily at <strong>8pm<\/strong> on social media page of Bombay Shaving Company from 2nd April to 21st May 2023. <\/p><p>ii) Weekly Winners - will get a chance to win XBox Game or Xbox Game pass unlimited for 12months will be announced on every Saturday starting from 2nd April to 21st May 2023, at 8pm.<\/p><p>iii) Grand Winner  - will get a chance to win a fully paid trip to London which includes flight tickets and stay. (T&C).<\/p><p>All updates and announcements regarding the winners will be made on the company's website and social media pages. <\/p><p>Instagram: <a href=\"https:\/\/www.instagram.com\/bombayshavingcompany\/#\">bombayshavingcompany<\/a><\/p><p>Website: <a href=\"https:\/\/bombayshavingcompany.com\/\"><span style=\"text-decoration:underline\">https:\/\/bombayshavingcompany.com\/<\/span><\/a> <\/p><p>Linkedln: <a href=\"https:\/\/www.linkedin.com\/company\/bombay-shaving-company\/\"><span style=\"text-decoration:underline\">https:\/\/www.linkedin.com\/company\/bombay-shaving-company\/<\/span><\/a> <\/p><p>The update regarding grand winner will be made in the first week of June, after the IPL gets over. <\/p>",
+            "ans": "<p>The lucky draw winners will be announced in 3 ways </p><p>i) Daily Winners - will get a chance to win IPL ticket or BSC Hampers which will be announced daily at <strong>8pm</strong> on social media page of Bombay Shaving Company from 2nd April to 21st May 2023. </p><p>ii) Weekly Winners - will get a chance to win XBox Game or Xbox Game pass unlimited for 12months will be announced on every Saturday starting from 2nd April to 21st May 2023, at 8pm.</p><p>iii) Grand Winner  - will get a chance to win a fully paid trip to London which includes flight tickets and stay. (T&C).</p><p>All updates and announcements regarding the winners will be made on the company's website and social media pages. </p><p>Instagram: <a href=\"https://www.instagram.com/bombayshavingcompany/#\">bombayshavingcompany</a></p><p>Website: <a href=\"https://bombayshavingcompany.com/\"><span style=\"text-decoration:underline\">https://bombayshavingcompany.com/</span></a> </p><p>Linkedln: <a href=\"https://www.linkedin.com/company/bombay-shaving-company/\"><span style=\"text-decoration:underline\">https://www.linkedin.com/company/bombay-shaving-company/</span></a> </p><p>The update regarding grand winner will be made in the first week of June, after the IPL gets over. </p>",
             "open": false
           }
         },
@@ -292,7 +299,7 @@
           "type": "testimonial",
           "settings": {
             "que": "How can I claim my prize if I win the lucky draw?",
-            "ans": "<p>If you win any of the prizes, our team will contact you via email or phone call to provide further instructions on how to claim your prize and assist you with any queries that you may have.<\/p>",
+            "ans": "<p>If you win any of the prizes, our team will contact you via email or phone call to provide further instructions on how to claim your prize and assist you with any queries that you may have.</p>",
             "open": false
           }
         },
@@ -300,7 +307,7 @@
           "type": "testimonial",
           "settings": {
             "que": "What happens if I am unable to claim my prize within the given timeline?",
-            "ans": "<p>If you are unable to claim your prize within the given timeline or your schedule is not matching with the IPL tickets provided to daily winner then, we will need to select another winner for the prize.<\/p>",
+            "ans": "<p>If you are unable to claim your prize within the given timeline or your schedule is not matching with the IPL tickets provided to daily winner then, we will need to select another winner for the prize.</p>",
             "open": false
           }
         },
@@ -308,7 +315,7 @@
           "type": "testimonial",
           "settings": {
             "que": "What are the prizes that I can win?",
-            "ans": "<p>You can win any of the 3 prizes:<\/p><p>i) Daily Winners - will get a chance to win IPL match ticket or BSC Hampers.<\/p><p>ii) Weekly Winners - will get a chance to win XBox Game or Xbox Game pass unlimited for 12months.<\/p><p>iii) Grand Winner  - will get a chance to win a fully paid trip to London which includes flight tickets and stay. (T&C)  Know more on the T&C page of the website.<\/p>",
+            "ans": "<p>You can win any of the 3 prizes:</p><p>i) Daily Winners - will get a chance to win IPL match ticket or BSC Hampers.</p><p>ii) Weekly Winners - will get a chance to win XBox Game or Xbox Game pass unlimited for 12months.</p><p>iii) Grand Winner  - will get a chance to win a fully paid trip to London which includes flight tickets and stay. (T&C)  Know more on the T&C page of the website.</p>",
             "open": false
           }
         }
@@ -323,8 +330,7 @@
         "010f7066-a4a6-41ca-a432-c26e1ff6d2a0",
         "45e2ba9b-7ed0-43dd-8449-dd962f02a660"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "1681288710f1866ff6": {
       "type": "apps",
